@@ -1,0 +1,123 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+body{
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+	font-size: 16px;
+	font-weight: 500;
+}
+h2{
+	font-size: 48px;
+	font-weight: 800;
+}
+h3{
+	font-size: 36px;
+	font-weight: 700;
+}
+h4{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.container {
+	margin:auto;
+	text-align: center;
+	background: url('../img/Rectangle.png') 100% 0px no-repeat;
+	background-size: 1920px 900px;
+
+}
+
+.container-nav {
+	color: #FFF;
+	background: url("../img/icon/Line.png") 0% 100px no-repeat;
+	background-size: 1920px 1px;
+}
+
+.container-nav a{
+	color: #FFF;
+}
+.container-nav_menu a:first-child{
+	background: url("../img/icon/Line.png") 25% 18px no-repeat;
+}
+
+.container-nav_menu {
+	margin: 0 370px 0 900px;
+	font-size: 16px;
+	font-weight: 500;
+	height: 100px;
+	padding: 40px 0;
+}
+.container-nav_menu a{
+	padding: 0 20px;
+}
+
+.container-nav-text{
+	width: 830px;
+	margin: auto;
+}
+
+.container-nav-text h1{
+	margin: 220px 0 20px 0
+}
+
+.button {
+	display: inline-block;
+	height: 45px;
+	padding:0 30px;
+	line-height: 44px;
+	border-radius: 24px;
+	background:  #4985FF;
+	box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);;
+	margin: 50px 0 350px 0;
+}
+
+.container-oneline {}
+.container-oneline__maket {}
+.container-oneline__maket__item {}
+
+.container-twoline {}
+.container-twoline_item {}
+.container-twoline_item_text {}
+.container-twoline_item_img {}
+.container-twoline_line {}
+.container-twoline_line_icon {}
+
+.container-threeline {}
+.container-threeline_line {}
+.container-threeline_line_item {}
+
+.container-fourline {}
+.container-fourline_img {}
+
+.container-fiveline {}
+.container-fiveline_img {}
+.container-fiveline_img_play {}
+
+.form-bottom {}
+.form-bottom_item {}
+
+.min-text {}
+
+.footer {}
+.footer-item {}
