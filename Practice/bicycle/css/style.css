@@ -34,6 +34,7 @@ header{
 .row {
   display: flex;
   align-items: center;
+
 }
 .menu {
   padding: 0 20px 0;
@@ -82,15 +83,16 @@ header{
 .contant{
 
 }
-.row {
+.contant_row {
   display: flex;
+  height: 100%;
 }
 .column {
   height: 600px;
   text-align: center;
 }
 .f66 {
-  flex: 0 1 66%;
+  flex: 0 1 66.66%;
 }
 .bg1 {
   background: url('../img/rectangle_1_1.png') center no-repeat;
@@ -103,7 +105,7 @@ header{
 
 }
 .f33 {
-  flex: 0 1 33%;
+  flex: 0 1 33.33%;
 }
 .fx {
   display: flex;
@@ -111,7 +113,8 @@ header{
   justify-content:space-between;
 }
 .column__item {
-  flex: 0 1 66%;
+  overflow: hidden;
+  flex: 0 1 66.6%;
 }
 .pa{
   padding: 12%;
@@ -123,15 +126,10 @@ header{
   font-size: 16px;
   line-height: 30px;
 }
-.bg-line{
 
-}
-
-.item-igm{
-  flex: 0 1 33%;
-}
-
-.bg2{
-  background: url('../img/rectangle_1_1.png') center no-repeat;
+.column__item-img{
+  flex: 0 1 33.3%;
+  height: 100%;
+  background: url('../img/rectangle_1_2.png') center no-repeat;
   background-size: cover;
 }
