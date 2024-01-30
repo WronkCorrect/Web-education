@@ -1,0 +1,137 @@
+/*Обнуление*/
+*,*:before,*:after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+
+/*Стили для демонстрации*/
+.wrapper{
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  min-height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Основные стили */
+header{
+  background: url('../img/bg_2.png')center no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.nav {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  padding: 0 20px 0;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  color: #4d4959;
+}
+.menu-logo {
+  padding: 0 40px 0;
+}
+
+.present {
+  background-color: #f7f7f7;
+  max-height: 470px;
+  padding: 115px 0 140px 0 ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.present_content {
+  max-width: 1080px;
+}
+.icon {
+  padding-bottom: 30px;
+}
+.title {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  padding-bottom: 25px;
+}
+.text {
+  font-size: 18px;
+  line-height: 34px;
+  color: #848789;
+}
+
+****
+.contant{
+
+}
+.row {
+  display: flex;
+}
+.column {
+  height: 600px;
+  text-align: center;
+}
+.f66 {
+  flex: 0 1 66%;
+}
+.bg1 {
+  background: url('../img/rectangle_1_1.png') center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.icon-img {
+
+}
+.f33 {
+  flex: 0 1 33%;
+}
+.fx {
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.column__item {
+  flex: 0 1 66%;
+}
+.pa{
+  padding: 12%;
+}
+.item-icon{
+  padding-bottom: 30px;
+}
+.mini {
+  font-size: 16px;
+  line-height: 30px;
+}
+.bg-line{
+
+}
+
+.item-igm{
+  flex: 0 1 33%;
+}
+
+.bg2{
+  background: url('../img/rectangle_1_1.png') center no-repeat;
+  background-size: cover;
+}
