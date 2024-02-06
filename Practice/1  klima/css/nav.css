@@ -1,0 +1,76 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-left: 5em;
+  padding-right: 5em;
+  background-color: gray;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.418);
+}
+
+.nav-logo-img {
+  width: 9em;
+}
+.nav-menu {
+  margin-top: 0.8em;
+  color: rgb(255, 255, 255);
+}
+.nav-menu-click {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
+}
+.nav-menu-click:hover {
+  background-image: radial-gradient(
+      1px 45% at 0% 50%,
+      rgba(0, 0, 0, 0.6),
+      transparent
+    ),
+    radial-gradient(1px 45% at 100% 50%, rgba(0, 0, 0, 0.6), transparent);
+}
+.nav-menu-click:active {
+  background-image: radial-gradient(
+      45% 45% at 50% 100%,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3));
+  box-shadow: inset rgba(162, 95, 42, 0.4) 0 0 0 1px,
+    inset rgba(255, 255, 255, 0.9) 0 0 1px 3px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-contact {
+  margin-top: 0.8em;
+}
+.nav-contact-number {
+  text-decoration: none;
+  color: rgb(210, 224, 255);
+  font-size: large;
+}
+
+@media (max-width: 767.98px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-contact {
+    display: none;
+  }
+}

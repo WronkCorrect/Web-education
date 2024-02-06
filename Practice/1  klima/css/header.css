@@ -1,0 +1,57 @@
+header {
+  margin: 0;
+}
+
+.header-container {
+  background-image: url(/img/Klimatechnik.jpg);
+  height: 635px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 3em;
+}
+
+.header-h {
+  margin: 0;
+  padding-top: 7em;
+  padding-left: 5em;
+}
+
+h1 {
+  font-weight: 800;
+  color: rgb(39, 23, 0);
+  font-size: 3.5em;
+  margin-bottom: 0;
+  text-shadow: 0.5px 2px rgba(0, 0, 0, 0.434);
+}
+h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: underline;
+  color: #ff8400;
+}
+button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #fdbe33 #000 #d77206;
+  border-radius: 6px;
+  background: linear-gradient(#f3ae0f, #e38916) #e38916;
+  transition: 0.2s;
+}
+button:hover {
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+button:active {
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+@media (max-width: 424.98px) {
+  .header-h {
+    padding-left: 1em;
+  }
+}

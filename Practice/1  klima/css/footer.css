@@ -1,0 +1,39 @@
+footer {
+  background-color: #233d62;
+  color: white;
+}
+.footer-menu {
+  padding: 1% 0% 1% 0%;
+}
+.footer-menu-block {
+  display: block;
+}
+
+.footer-menu-title {
+  padding: 1% 0% 1% 7% !important;
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.footer-bottom {
+  background-color: #042450;
+  padding: 0.1% 0% 0.1% 0%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-menu-block {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-menu {
+    text-align: center;
+  }
+  .footer-menu-title {
+    padding: 1% 0% 1% 0% !important;
+    width: 100%;
+  }
+}
